@@ -1,0 +1,35 @@
+[Bài thực hành 1] Xây dựng hệ thống tự học và đánh giá code Python với Feynman và Rubric
+Vấn đề : Bạn đang gặp khó khắn với các khái niệm cấu trúc dữ liệu, bạn cần xây dựng 1 promt AI thành mentor của mình trong học tập.Như giải thích cấu trúc đó bằng ngôn ngữ python
+Yêu  cầu : 
+- Phần 1 : Feynman(Giải thích một khái niệm kỹ thuật do học viên yêu cầu sao cho một học sinh 10 tuổi cũng hiểu được.)
+- Phần 2 : Rubric(Chấm điểm đoạn code Python do học viên nộp dựa trên bảng Rubric 4 tiêu chí.)
+Giải quyết bài toán : 
+                 - Phần 1 : Promt Feynman giải thích vấn đề.
+   Gồm 4 bước : 
++ Bước 1 : Chọn chủ đề chưa hiểu cần học
++ Bước 2 : Hỏi AI giải thích dễ hiểu (Ví dụ giải thích cho học sinh lớp 6 có thể hiểu vấn đè)
++ Bước 3 : Lỗ hổn kiến thức (hỏi lại những vấn đề mà chính mình chưa hiểu)
++ Bước 4 : Đi giải thích lại theo ý hiểu của mình cho AI đánh giá.
+
+Promt : Bạn là chuyên gia về cấu trúc dữ liệu và giải thuật.tôi là sinh viên mới học lập trình đang cần tìm hiểu các cấu trúc dữ liệu (linked list, binary tree) bằng ngôn ngữ python. Hãy giải thích các cấu trúc dữ liệu
+trên cho 1 đứa trẻ 10 tuổi cũng hiểu.
+--> đợi kết quả trả về
+--> hỏi lại AI vấn đề mình chưa hiểu( lỗ hổng kiến thức)
+...
+Giải thích lại theo ý hiểu của mình cho AI nhận xét."Theo tôi hiểu linked list là...?có đúng không" , "Binary tree là ... có đúng không"
+                 - Phần 2 : Rubric
+Thiết lập bảng tiêu chí chấm điểm (Rubric) chi tiết:
+ 1. Tính đúng đắn (Correctness) - 40% điểm.
++ chuong trình có gặp bug gì không?
++ chuong trinh chạy duoc nhung ket qua co bi sai hay khong?
+ 2. Độ tối ưu thuật toán (Efficiency - Time/Space) - 30% điểm.
++ thuật toán có nhanh hay không
++ thuật toán có chiếm nhiều dung lượng hay không?
+3. Phong cách viết code (Code Style & Readability) - 20% điểm.
++ dặt tên theo tên biến, tên hàm có theo quy tắc hay không?
++ dặt tên biến,hàm có dê hiểu hay không?
++ code có gọn gàng, dễ đọc hay không?
++ đặt tên có chuyên nghiệp hay không?
+ 4. Xử lý ngoại lệ/Bắt lỗi (Edge Cases) - 10% điểm.
++ danh sách không có phần tử thì sao?
++ danh sách có 1 phần tử thì sao?
